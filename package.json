@@ -1,0 +1,34 @@
+{
+    "name": "@joeymeere/dreamcast",
+    "version": "1.0.1",
+    "description": "Plug and play Solana programs with just a program ID.",
+    "main": "./src/index.ts",
+    "types": "./src/index.d.ts",
+    "scripts": {
+        "build": "tsup src/index.ts --dts",
+        "clean": "rm -rf dist",
+        "test": "esrun src/index.test.ts"
+    },
+    "keywords": [
+        "solana",
+        "solana program",
+        "anchor",
+        "anchor idl"
+    ],
+    "author": "Joey Meere <joey.meere@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@coral-xyz/anchor": "^0.30.0",
+        "@solana/web3.js": "^1.91.7",
+        "bs58": "^5.0.0",
+        "pako": "^2.1.0"
+    },
+    "devDependencies": {
+        "@digitak/esrun": "^3.2.26",
+        "@types/node": "^20.12.7",
+        "@types/pako": "^2.0.3",
+        "esrun": "^3.2.26",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
+    }
+}
