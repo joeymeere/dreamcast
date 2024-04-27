@@ -1,6 +1,6 @@
 {
     "name": "@joeymeere/dreamcast",
-    "version": "1.0.6",
+    "version": "1.0.71",
     "description": "Plug and play Solana programs with just a program ID.",
     "main": "./src/index.ts",
     "types": "./src/index.d.ts",
@@ -18,7 +18,7 @@
     "author": "Joey Meere <joey.meere@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@coral-xyz/anchor": "^0.30.0",
+        "@coral-xyz/anchor": "^0.29.0",
         "@solana/web3.js": "^1.91.7",
         "bs58": "^5.0.0",
         "pako": "^2.1.0"
