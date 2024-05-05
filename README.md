@@ -1,6 +1,6 @@
 <img src="https://firebasestorage.googleapis.com/v0/b/zircon-ac0b5.appspot.com/o/dreamcast.png?alt=media&token=35156d61-e316-4aa1-9c82-1b9f532199bd">
 <div align="center">
-  <img src="https://badgen.net/badge/version/1.0.6/blue">
+  <img src="https://badgen.net/badge/version/1.1.0/blue">
   <img src="https://badgen.net/badge/contributions/open/blue">
 </div>
 <h1 align="center">Dreamcast</h1>
