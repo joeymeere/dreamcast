@@ -4,7 +4,7 @@ import { Connection, Keypair } from "@solana/web3.js";
 import assert from "node:assert/strict";
 import { Program, Wallet } from "@coral-xyz/anchor";
 
-const connection = new Connection("https://mainnet.helius-rpc.com/?api-key=<key>");
+const connection = new Connection("https://mainnet.helius-rpc.com/?api-key=<rpc key>");
 const programId1 = "STKUaKniasuqrfer3XNbmrrc578pkL1XACdK8H3YPu8";
 const programId2 = "F2VtnW9dTobhDfxSNTyWyVLr1rH9nVwwkRySi5gYsiGz";
 

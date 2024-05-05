@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Expose anchor utilities
+
 ## 1.0.1 - 1.0.7
 
 - Added tests

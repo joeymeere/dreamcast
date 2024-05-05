@@ -8,6 +8,11 @@
   <h3>Fetching and interacting with Anchor IDLs made quicker and easier.</h3>
 </div>
 
+## Who Is This For?
+Dreamcast is for both novice and expert developers who are looking to interact with programs that lack a Typescript SDK, but have a published IDL account on-chain.
+
+Additionally, this library is suitable for those who have an IDL file for a custom program they are interacting with, but want a concise and reusable method for creating their provider and program instances.
+
 ## Installation
 You can install Dreamcast with npm using the following command:
 ```
