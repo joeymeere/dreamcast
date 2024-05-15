@@ -33,7 +33,7 @@ export async function getProgram(
   idl: object,
   programId: string,
   wallet: NodeWallet,
-  commitment?: "processed" | "confirmed" | "finalized"
+  commitment?: "processed" | "confirmed" | "finalized",
 ) {
   // Create type definition from IDL (similar to what anchor generates)
   //@ts-ignore
@@ -48,7 +48,7 @@ export async function getProgram(
   const provider = new anchor.AnchorProvider(
     connection,
     wallet,
-    opts.preflightCommitment
+    opts.preflightCommitment,
   );
 
   const program = new anchor.Program(
@@ -59,5 +59,3 @@ export async function getProgram(
 
   return program;
 }
-
-export * as anchor from "@coral-xyz/anchor";
